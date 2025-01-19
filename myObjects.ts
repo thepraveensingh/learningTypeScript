@@ -43,5 +43,21 @@ let myUser : MyUser = {
 myUser.email = "ps@p.com"
 // myUser.id = 343
 
+type cardNumber = {
+  cardNumber : string
+}
+type cardDate = {
+  cardDate : string
+}
+
+type cardDetails = cardNumber & cardDate &  {cvv : Number}
+
+let c1: cardDetails = { 
+  cardNumber: "234", 
+  cardDate: "1234", 
+  cvv: 23 
+};
+
+
 
 export{}

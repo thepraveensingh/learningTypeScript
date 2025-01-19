@@ -24,3 +24,8 @@ var myUser = {
     isActive: false
 };
 myUser.email = "ps@p.com";
+var c1 = {
+    cardNumber: "234",
+    cardDate: "1234",
+    cvv: 23
+};
